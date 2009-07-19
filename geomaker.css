@@ -1,0 +1,227 @@
+/*
+  GeoMaker by Christian Heilmann (styles)
+  Version: 1.0
+  Homepage: http://icant.co.uk/geomaker/
+  Copyright (c) 2009, Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
+html,body{
+  background:#69c;
+  margin:0;
+  padding:0;
+}
+#doc{
+  background:#fff;
+  border:1em solid #fff;
+}
+#url{width:628px;}
+textarea{
+  width:100%;
+  height:100px;
+}
+#messagedisplay{
+  padding:1em;
+  border:1px solid #999;
+  background:#eee;
+}
+#messagedisplay strong{
+  background:#3f3;
+  padding:2px;
+  color:#000;
+}
+form div{
+  position:relative;
+}
+form div.submit{
+  text-align:right;
+  padding:.5em;
+  background:#369;
+  margin:.5em 0;
+}
+#loadcontent{
+position:absolute;
+right:0;
+bottom:0
+}
+#url{
+height:1.6em;
+}
+#map{width:100%;height:300px;}
+#map table,#map td{
+  border:none;
+  padding:0;
+}
+h2{
+  font-family:Calibri,Arial,Sans-serif;
+  font-size:150%;
+  margin:1em 0;
+  padding:0;
+}
+#feed{
+  margin:0;
+  list-style:none;
+}
+.infopage .intro{
+  padding:1em 0 0 0;
+  background:#fff;
+  font-size:100%;
+  color:#000;
+}
+#feed li{
+  list-style:none;
+  background:#eee;
+  margin-bottom:1em;
+}
+#feed div.feedcontent{
+  height:4em;
+  overflow:auto;
+  padding:.5em;
+  margin:0 0 .5em 0;
+  font-weight:normal;
+}
+object{
+  display:block;
+  margin:1em auto;
+}
+.infopage li,.infopage p{
+  line-height:1.3em;
+}
+.infopage li{
+  padding-bottom:.5em;
+}
+#github{
+  font-size:120%;
+  text-align:left;
+}
+#feed div{
+  margin:.1em 0;
+  font-weight:bold;
+}
+#feed div input{
+  margin-right:1em;
+}
+#feed h3{
+  margin:.5em 0 0 0;
+  padding:.2em .4em;
+  background:#69c;
+  color:#fff;
+  font-size:120%;
+}
+#feed h3 a{
+  text-decoration:none;
+  color:#000;
+}
+h3,.yui-skin-sam #doc table caption{
+  font-family:Calibri,Arial,Sans-serif;
+  font-size:120%;
+  text-align:left;
+  font-weight:bold;
+  font-style:normal;
+}
+p a,li a{
+color:#369;
+}
+p code{
+  color:#333;
+  font-weight:bold;
+}
+h1{
+  font-family:Calibri,Arial,Sans-serif;
+  font-size:200%;
+  margin:0 0 .5em 0;
+  padding:0;
+}
+#message{
+  margin-bottom:2em;
+}
+#tabs .yui-u{
+  background:#ccc;
+  color:#999;
+}
+#tabs .current{
+  background:#369;
+  color:#fff;
+}
+#tabs h2,#tabs p{
+  margin:.3em 0;
+  padding:0 0 0 35px;
+}
+#tabs span{
+  font-size:220%;
+  position:absolute;
+  top:0;
+  left:.07em;
+}
+#tabs .yui-u {
+  position:relative;
+}
+#hd{position:relative;}
+#nav{
+  position:absolute;
+  top:-1em;
+  right:-1.5em;
+  list-style:none;
+  overflow:auto;
+  padding:.5em;
+  font-family:Calibri,Arial,Sans-serif;
+  font-weight:bold;
+  font-size:120%;
+}
+#nav li{
+  list-style:none;
+  float:left;
+  padding:0 .5em;
+  display:block;
+}
+#nav a{
+  color:#363;
+  text-decoration:none;
+}
+#nav strong,#nav a.current{
+  text-decoration:none;
+  color:#000;
+}
+.intro{
+  font-size:120%;
+  padding:.5em;
+  
+  background:#369;
+  color:#fff;
+  line-height:1.5em;
+}
+#foundresults{
+  width:100%;
+}
+#foundresults caption{
+  text-align:left;
+}
+#rsscheck{
+  padding-left:110px;
+  padding-top:5px;
+}
+.info{
+  font-size:90%;
+  color:#666;
+}
+#foundresults th{
+  color:#fff;
+  background:#369;
+}
+#foundresults tr.odd{
+  background:#ccc;
+}
+.error{
+  border:2px solid #c00;
+  background:#fcc;
+  color:#c00;
+  font-weight:bold;
+  padding:1em;
+}
+#ft{
+  color:#ccc;
+  font-size:80%;
+  text-align:right;
+  margin:3em 0 0 0 ;
+}
+#ft a{color:#999;}
