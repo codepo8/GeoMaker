@@ -218,9 +218,20 @@ h1{
   font-weight:bold;
   padding:1em;
 }
+#donate{
+  width:750px;
+  margin:0 auto;
+  margin-top:-5em;
+  text-align:left;
+}
+#donate h2{
+  margin:0;
+  font-size:90%;
+}
 #ft{
   color:#ccc;
   font-size:80%;
+  position:relative;
   text-align:right;
   margin:3em 0 0 0 ;
 }

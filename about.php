@@ -35,6 +35,10 @@
       
       <p>GeoMaker was written by <a href="http://icant.co.uk">Chris Heilmann</a> (<a href="http://twitter.com/codepo8">@codepo8 on Twitter</a>, the <a href="http://wait-till-i.com">blog is here</a>) with refinement help by the Yahoo Geo Team.</p>
       
+      <h2>Cost</h2>
+      <p>GeoMaker is free of use, but if you really consider it useful and it saves you a lot of time, we'd love a donation (PayPal form is in the footer of this page).</p>
+      
+    
       <h2>A peek under the hood</h2>
       
       <p>In essence, GeoMaker is an easier interface to two web services: <a href="http:/developer.yahoo.com/geo/placemaker">Yahoo Placemaker</a> and <a href="http:developer.yahoo.com/maps/ajax">Yahoo Maps</a>.</p>
@@ -47,6 +51,7 @@
 
       <?php include('licensing.php');?>
             
+
       <div class="submit">
         <input type="submit" id="send" value="Start using GeoMaker">
       </div>
